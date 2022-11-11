@@ -18,7 +18,7 @@ exports.getAllTodos = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Internal Server Error",
+      message: "Oops Internal Server Error",
       error: error.message,
     });
   }
@@ -42,7 +42,7 @@ exports.getTodo = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Internal Server Error",
+      message: "Ooops Internal Server Error",
       error: error.message,
     });
   }
@@ -66,7 +66,7 @@ exports.createTodo = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Internal Server Error",
+      message: "Ooops Internal Server Error",
       error: error.message,
     });
   }
@@ -93,7 +93,7 @@ exports.updateTask = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Internal Server Error",
+      message: "Oops Internal Server Error",
       error: error.message,
     });
   }
@@ -118,7 +118,7 @@ exports.deleteTask = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Internal Server Error",
+      message: "Oops Internal Server Error",
       error: error.message,
     });
   }
