@@ -1,0 +1,26 @@
+### Get all task
+GET http://localhost:3000/todo HTTP/1.1
+
+### Get one task
+GET http://localhost:3000/todo/636b2163279b73a73a827171 HTTP/1.1
+
+### Create Task
+POST http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Take a stroll",
+    "description": "Take a stroll to the national pack"
+}
+
+### Update Task
+PUT http://localhost:3000/todo/636b2046279b73a73a82716f HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Go to Justrite",
+    "description": "..."
+}
+
+### Delete Task
+DELETE http://localhost:3000/todo/636b2163279b73a73a827171 HTTP/1.1
