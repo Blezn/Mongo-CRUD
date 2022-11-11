@@ -1,14 +1,14 @@
 {
   "name": "todo-mongodb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week 7 mongodb task",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Blessing",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
